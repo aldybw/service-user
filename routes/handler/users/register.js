@@ -7,7 +7,7 @@ module.exports = async (req, res) => {
   const schema = {
     name: "string|empty:false",
     email: "email|empty:false",
-    password: "string|min:6",
+    password: "string|min:8",
     profession: "string|optional",
   };
 

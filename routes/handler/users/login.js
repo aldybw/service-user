@@ -45,7 +45,7 @@ module.exports = async (req, res) => {
       id: user.id,
       name: user.name,
       email: user.email,
-      role: user.email,
+      role: user.role,
       avatar: user.avatar,
       profession: user.profession,
     },
